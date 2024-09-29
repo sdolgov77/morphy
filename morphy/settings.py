@@ -4,6 +4,12 @@ from petrovich.enums import Gender
 c_respected_male = "Уважаемый"
 c_respected_female = "Уважаемая"
 
+class RegimeInit:
+    """Режимы начала имени"""
+    AS_IS = 'init_as_is'              # Выводить как есть
+    LOWER = 'init_lower'              # Приводить первую букву к нижнему регистру
+    UPPER = 'init_upper'              # Приводить первую букву к верхнему регистру
+
 class RegimeLength:
   """Режимы длины имени"""
   SHORT           = 'short'           # Фамилия И.О.

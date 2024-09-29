@@ -3,6 +3,6 @@ from pyphrasy.inflect import PhraseInflector
 
 morph = pymorphy3.MorphAnalyzer()
 inflector = PhraseInflector(morph)
-form = 'gent'
-phrase = 'Ольга'
+form = 'datv'
+phrase = 'Уважаемая женщина'
 print(inflector.inflect(phrase, form))
