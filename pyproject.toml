@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "morphy"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+petrovich = "^2.0.1"
+pyphrasy = "^0.2.0"
+setuptools = "^75.1.0"
+pymorphy3 = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
